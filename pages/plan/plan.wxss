@@ -1,0 +1,11 @@
+/* plan.wxss */
+
+.log-item{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #1AAD19;
+  color: #FFFFFF;
+  font-size: 36rpx;
+  margin: 0 5px;
+}

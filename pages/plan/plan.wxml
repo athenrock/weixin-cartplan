@@ -1,0 +1,12 @@
+<!--plan.wxml-->
+
+<view class="plan-msg">{{text}}</view>
+<view class="plan-body">
+  <block wx:for="{{boys}}" wx:for-item="boy">
+    <view>
+      <text class="log-item">{{boy.surname}}.{{boy.name}}</text>      
+    </view>
+    <view wx:if="{{boy.sex=='1'}}"> 男 </view>
+    <view wx:else="{{boy.sex =='2'}}"> 女 </view>
+  </block>
+</view>

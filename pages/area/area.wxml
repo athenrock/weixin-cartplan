@@ -1,0 +1,38 @@
+<!--area.wxml-->
+<view class="area-body">
+  <view class="area-title"><text class="area-text">{{text}}</text></view>
+  <view class="page-section page-section-gap">
+      <view class="page-section-title">像我这样的青年旁边还有</view>
+      <label class="label-3">
+         <navigator url="/pages/plan/plan?title=one2B" hover-class="navigator-hover">
+          <button class="mini-btn" type="primary" size="mini">一个</button>
+         </navigator>
+        <navigator url="/pages/plan/plan?title=two2B" hover-class="navigator-hover">
+           <button class="mini-btn" type="primary" size="mini">二个</button>
+         </navigator>
+         <navigator url="/pages/plan/plan?title=three2B" hover-class="navigator-hover">
+           <button class="mini-btn" type="primary" size="mini">三个</button>
+         </navigator>        
+      </label>
+  </view>
+  <view class="page-section page-section-gap">
+      <view class="page-section-title">另外那种不像我的青年，旁边还有</view>
+      <label class="label-3">
+        <navigator url="/pages/plan/plan?title=oneboy" hover-class="navigator-hover">
+          <button class="mini-btn" type="primary" size="mini">一个</button>
+         </navigator>
+        <navigator url="/pages/plan/plan?title=twoboy" hover-class="navigator-hover">
+           <button class="mini-btn" type="primary" size="mini">二个</button>
+         </navigator>
+         <navigator url="/pages/plan/plan?title=threeboy" hover-class="navigator-hover">
+           <button class="mini-btn" type="primary" size="mini">三个</button>
+         </navigator>  
+      </label>
+  </view>
+   <view class="page-section page-section-gap">
+      <view class="page-section-title">其他搞不清品种的还有</view>
+      <label class="label-3">
+        <input class="weui-input" maxlength="10" placeholder="你觉得是啥就写啥" />
+      </label>
+  </view>
+</view>
